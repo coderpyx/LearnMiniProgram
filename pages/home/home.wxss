@@ -1,0 +1,5 @@
+/* pages/home/home.wxss */
+.titlte{
+  color: red;
+  font-size: 30px;
+}
