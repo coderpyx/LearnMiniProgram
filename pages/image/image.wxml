@@ -1,0 +1,21 @@
+<!--pages/image/image.wxml-->
+<!-- image可以写成单标签 行内块元素-->
+<!-- image组件默认大小  320*240 -->
+<image src=""/>
+
+<!-- 补充：选中相册图片 -->
+<button bindtap="handleChooseAlbum" >选中图片</button>
+<image src="{{imagepath}}"></image>
+
+
+<!-- bindload 监听图片加载完成 -->
+<!-- lazy-load 图片懒加载 -->
+<image wx:for="{{1}}" src="{{imagepath}}" bindload='loadimage' lazy-load></image>
+
+
+
+<!-- show-menu-by-longpress 长按图片识别小程序码 -->
+
+<image src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3202350968,2388474311&fm=26&gp=0.jpg" show-menu-by-longpress></image>
+
+

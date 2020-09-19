@@ -1,0 +1,12 @@
+/* pages/View/View.wxss */
+.box{
+  background-color: red;
+}
+.box1{
+  width: 200px;
+  height: 200px;
+  background-color:red;
+}
+.box01{
+  background-color: pink;
+}

@@ -1,0 +1,15 @@
+<!--pages/View/View.wxml-->
+<!-- 1. view的基本使用 -->
+<!-- 块级元素 ，独占一行 相当于html 里的div -->
+<view class="box">
+  哈哈哈
+  <text></text>
+  <button></button>
+</view>
+
+<view class="box1" 
+      hover-class="box01"
+      hover-start-time="0"
+      hover-stay-time="200"
+      >heiehie</view>
+
